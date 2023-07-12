@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "marca": "ignite",
+    "name": "Ignite V50",
+    "sabor": "Strawberry Kiwi",
+    "puff": 5000,
+    "price": 0,
+    "image": "ignite v50.png"
+  },
+  {
+    "id": 2,
+    "marca": "ignite",
+    "name": "Ignite V50",
+    "sabor": "Blueberry Ice",
+    "puff": 5000,
+    "price": 0,
+    "image": "ignite-blueberry.png"
+  },
+  {
+    "id": 3,
+    "marca": "ignite",
+    "name": "Ignite V50",
+    "sabor": "Peach Raspberry",
+    "puff": 5000,
+    "price": 0,
+    "image": "ignite-peach.png"
+  },
+
+  {
+    "id": 4,
+    "marca": "ignite",
+    "name": "Ignite V50",
+    "sabor": "Grape Ice",
+    "puff": 5000,
+    "price": 0,
+    "image": "ignite-grape.png"
+  },
+  {
+    "id": 5,
+    "marca": "Elfbar",
+    "name": "Elf bar te5000",
+    "sabor": "Strawberry Ice Cream",
+    "puff": 5000,
+    "price": 0,
+    "image": "elfbar-strawberryCream.png"
+  },
+  {
+    "id": 6,
+    "marca": "Elfbar",
+    "name": "Elf bar te5000",
+    "sabor": "Blue Razz Lemonade",
+    "puff": 5000,
+    "price": 0,
+    "image": "elfbar-blueRazzLemonade.png"
+  },
+  
+  {
+    "id": 7,
+    "marca": "Elfbar",
+    "name": "Elf bar te5000",
+    "sabor": "Grape",
+    "puff": 5000,
+    "price": 0,
+    "image": "elfbar- grape.png"
+  },
+  {
+    "id": 8,
+    "marca": "Oxbar",
+    "name": "Oxbar ",
+    "sabor": "Blue Razz",
+    "puff": 7000,
+    "price": 0,
+    "image": "oxbar-blueRazz.png"
+  },
+  {
+    "id": 9,
+    "marca": "Oxbar",
+    "name": "Oxbar",
+    "sabor": "Aloe Grape",
+    "puff": 7000,
+    "price": 0,
+    "image": "oxbar-aloe.png"
+  },
+  {
+    "id": 10,
+    "marca": "Oxbar",
+    "name": "Elf bar te5000",
+    "sabor": "Grape",
+    "puff": 5000,
+    "price": 0,
+    "image": "oxbar-mint.png"
+  }
+
+]

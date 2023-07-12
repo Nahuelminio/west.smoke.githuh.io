@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <%- include ('./partials/head') %>
+
+    <link rel="stylesheet" href="/css/index.css" />
+     <link rel="stylesheet" href="/css/footer.css" />
+
+    <title>West Smoke</title>
+  </head>
+  <body>
+    <%- include ('./partials/header') %>
+    <main>
+      <br /> 
+      <div class="pods container text-center ">
+        <%for ( let p of productos){ %> <% if(p.marca == "ignite"){ %>
+        <div class="div-descartables">
+          <img
+            src="/img/ignite/<%= p.image %>"
+            class="img-descartables"
+            alt=""
+          />
+          <h3 class="text-descartables h3"><%= p.name %></h3>
+          <h4 class="text-descartables h4"><%= p.sabor %></h4>
+          <h4 class="text-descartables"><%= p.puff %> puff</h4>
+        </div>
+        <% } %> <% } %>
+      </div>
+      <br />
+      <br />
+      <!-- <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/img/ignite_logo.jpg"
+              class="d-block w-50 carrusel-elemento"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/img/logo-elfbar.webp"
+              class="d-block w-50 carrusel-elemento"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/img/nasty-logo.jpg"
+              class="d-block w-50 carrusel-elemento"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>  -->
+    </main>
+
+      <%- include ('./partials/footer') %>
+    
+  </body>
+</html>

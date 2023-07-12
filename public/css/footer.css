@@ -1,0 +1,33 @@
+footer {
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.fa-instagram {
+  font-size: 2em;
+  color: white;
+  margin-left: 2em;
+}
+.light-button {
+  margin-left: 10em;
+}
+h4 {
+  margin-left: 0.6em;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.div-footer {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.fa-whatsapp {
+  font-size: 2em;
+  color: white;
+  margin-left: 2em;
+}
